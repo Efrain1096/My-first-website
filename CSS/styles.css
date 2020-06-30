@@ -1,0 +1,55 @@
+/**********Tacg Selectors*************/
+
+body {
+  background-color: whitesmoke;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: black;
+  border-width: 5px;
+  width: 5%;
+}
+
+h1 {
+  color: #127681;
+}
+
+h3 {
+  color: #127681;
+}
+/*
+img {
+    background-color: yellowgreen;
+}
+*/
+
+/***************Class Selectors****************/
+
+
+.circular{
+    border-radius: 100%;
+}
+
+.bacon {
+  background-color: yellow;
+}
+
+.flag {
+  background-color: blue;
+}
+/***************ID Selectors****************/
+#heading{ /*Because id's and classes are more specic, they override the more general tags above.*/
+    color: blue
+}
+
+#profileImage{
+    border-radius: 100%;
+}
+/* WHat are the differences between id's and classes? Id's can on be present once in a page. 
+Id's are used for elements that con only be used once. Like say, an h1 header of a page. Or, a navigation bar.
+
+Whereas, a class is used to group more than one element together that are going to behave very similarly.
+
+The hierarchy seem to be: Default tags values -> css style values -> Classes and ID's.
+*/
